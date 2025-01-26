@@ -728,8 +728,8 @@ small {
 		z-index: 1;
 	}
 
-	.nav-list
-	{
+	.nav-list,
+	.social-nav {
 		transition: opacity 300ms ease-in-out;
 	}
 
@@ -820,7 +820,9 @@ small {
 		display: none;
 	}
 
-	
+	.my-skills ul {
+		grid-template-columns: repeat(2, 1fr);
+	}
 
 	.project:nth-child(even) img {
 		order: 1;
